@@ -19,14 +19,14 @@ A simple Python chatbot using Azure AI Foundry that responds to user prompts.
 pip install openai azure-identity requests
 ```
 
-2. Set environment variables
+### 2. Set environment variables
 ```bash
 set ENDPOINT_URL=https://<your-foundry-endpoint>.openai.azure.com/
 set DEPLOYMENT_NAME=gpt-4
 set AZURE_OPENAI_API_KEY=<your-api-key>
 ```
 
-3. Run the chatbot
+### 3. Run the chatbot
 ```bash
 python basic_chatbot.py
 ```
