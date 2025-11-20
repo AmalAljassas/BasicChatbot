@@ -2,7 +2,8 @@
 
 A simple chatbot with a graphical web interface built using **Streamlit** and powered by Azure AI Foundry.
 
-![Demo Screenshot](Streamlit UI.png)
+## Demo
+![Demo Screenshot](Streamlit%20UI.png)
 
 ## Features
 - Web-based chat UI using Streamlit
@@ -43,4 +44,5 @@ If not, open the link shown in the console (usually at http://localhost:8501).
 ### Notes
 This version focuses on a visual chat interface.
 For the CLI-based chatbot, switch back to the main branch.
+
 
