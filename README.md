@@ -23,21 +23,24 @@ A simple chatbot with a graphical web interface built using **Streamlit** and po
 ```bash
 pip install streamlit openai azure-identity requests
 
+```
 ### 2. Set environment variables
 ```bash
 set ENDPOINT_URL=https://<your-foundry-endpoint>.openai.azure.com/
 set DEPLOYMENT_NAME=gpt-4
 set AZURE_OPENAI_API_KEY=<your-api-key>
 
+```
 ### 3. Run the Streamlit app
 ```bash
 streamlit run app.py
 
+```
 ### 4. Open in browser
-```bash
 Streamlit will open the chatbot UI automatically.
 If not, open the link shown in the console (usually at http://localhost:8501).
 
 ### Notes
 This version focuses on a visual chat interface.
 For the CLI-based chatbot, switch back to the main branch.
+
